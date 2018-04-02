@@ -30,7 +30,7 @@ class AdditionTest {
 	        Assert.assertTrue(true);
 	    }
 	    @Test
-	    public final void whenMoreThan2NumbersExceptionThrow() {
+	    public final void whenUnknownNumbersNoExceptionThrow() {
 	        Addition.add("1,2,3,4");
 	    }
 }
